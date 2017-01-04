@@ -1,4 +1,0 @@
-INCLUDE_DIRECTORIES(${source_directory})
-
-ADD_EXECUTABLE(disf_encdec main.cc encdec_seqlabel_transducer.cc encdec_w_dur.cc ${SHARED_SRC})
-target_link_libraries(disf_encdec cnn ${Boost_LIBRARIES})
