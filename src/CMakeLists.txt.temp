@@ -1,0 +1,19 @@
+set(SHARED_SRC
+    ${source_directory}/training_utils.cc
+    ${source_directory}/utils.cc
+    ${source_directory}/layer.cc
+    ${source_directory}/logging.cc
+    ${source_directory}/labeling_deletion_model.cc
+    ${source_directory}/corpus.cc)
+
+#add_subdirectory(labeler)
+#add_subdirectory(labeler2)
+#add_subdirectory(encdec)
+add_subdirectory(stack-lstm-ner-master)
+#add_subdirectory(stack-lstm-parser)
+#add_subdirectory(exam_encdec)
+#add_subdirectory(encdec_new)
+#add_subdirectory(rnnlm_batch)
+#add_subdirectory(rnnlm_cfsm)
+#add_subdirectory(encdec2)
+#add_subdirectory(sandbox)

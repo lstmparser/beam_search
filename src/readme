@@ -1,0 +1,5 @@
+stack-lstm-disf-nogen:不加离散特征
+stack-lstm-disf-gen:加离散特征
+stack-lstm-disf-newgen:加离散特征,同时输出测试和开发集合效果
+stack-lstm-disf-gen-dual:加离散特征,同时输出测试和开发集合效果,可以同时输入spelling和word表示
+

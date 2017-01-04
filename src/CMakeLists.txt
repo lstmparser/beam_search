@@ -1,0 +1,10 @@
+PROJECT(cnn:ner)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+#add_subdirectory(stack-lstm-disf-nogen)
+#add_subdirectory(stack-lstm-disf-gen)
+#add_subdirectory(stack-lstm-disf-newgen)
+#add_subdirectory(stack-lstm-disf-gen-dual)
+#add_subdirectory(stack-lstm-new-action)
+add_subdirectory(stack-lstm-beam-search)
+add_subdirectory(stack-lstm-rev)
